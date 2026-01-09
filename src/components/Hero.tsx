@@ -77,7 +77,7 @@ export const Hero = () => {
       </AnimatePresence>
 
       {/* Content */}
-      <div className="container mx-auto px-6 relative z-10 h-full flex items-center pt-20">
+      <div className="container mx-auto px-6 relative z-10 h-full flex items-end pb-64 md:pb-72 lg:pb-80">
         <div className="max-w-4xl">
           <AnimatePresence mode="wait">
             <motion.div
