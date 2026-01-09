@@ -46,13 +46,13 @@ export const About = () => {
           className="max-w-5xl mx-auto text-center mb-20"
         >
           <h2 className="font-display text-5xl md:text-6xl lg:text-7xl text-foreground mb-8">
-            We are The Walsh Group.
+            We are ATSEHE Ultimate Synergy.
           </h2>
           <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-4xl mx-auto">
-            We're one of the largest and most established builders in North America, with values and an approach 
-            to business guided by our heritage as a fourth-generation family business. We come to work every day 
+            We're one of the largest and most established builders in Nigeria, with values and an approach 
+            to business guided by our commitment to excellence and innovation. We come to work every day 
             to be the builder of choice for customers, the employer of choice for our people, and to set the 
-            highest standards for ethics, quality and safety.
+            highest standards for ethics, quality and safety across West Africa.
           </p>
         </motion.div>
 

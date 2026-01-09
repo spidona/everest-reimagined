@@ -8,22 +8,25 @@ import { toast } from "sonner";
 
 const offices = [
   {
-    name: "WALSH CONSTRUCTION",
-    address: ["929 West Adams Street", "Chicago, Illinois 60607"],
-    phone: "312.563.5400",
-    fax: "312.563.5466",
+    name: "ATSEHE HEAD OFFICE",
+    address: ["Plot 123 Ahmadu Bello Way", "Victoria Island, Lagos"],
+    phone: "+234 1 234 5678",
+    fax: "+234 1 234 5679",
+    mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.7305!2d3.4226!3d6.4281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zVmljdG9yaWEgSXNsYW5k!5e0!3m2!1sen!2sng!4v1234567890",
   },
   {
-    name: "ARCHER WESTERN",
-    address: ["2839 Paces Ferry Road SE", "Suite 1200", "Atlanta, Georgia 30339"],
-    phone: "404.495.8700",
-    fax: "404.495.8701",
+    name: "ABUJA OFFICE",
+    address: ["15 Maitama District", "FCT, Abuja"],
+    phone: "+234 9 876 5432",
+    fax: "+234 9 876 5433",
+    mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.0!2d7.4951!3d9.0765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zTWFpdGFtYQ!5e0!3m2!1sen!2sng!4v1234567890",
   },
   {
-    name: "WALSH CANADA",
-    address: ["310 North Queen Street", "Suite 203S", "Etobicoke, Ontario M9C 5K4"],
-    phone: "",
+    name: "PORT HARCOURT OFFICE",
+    address: ["42 Trans Amadi Road", "Port Harcourt, Rivers State"],
+    phone: "+234 84 123 4567",
     fax: "",
+    mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.5!2d7.0134!3d4.8156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zUG9ydCBIYXJjb3VydA!5e0!3m2!1sen!2sng!4v1234567890",
   },
 ];
 
@@ -82,13 +85,22 @@ export const Contact = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="grid md:grid-cols-3 gap-12"
+            className="grid md:grid-cols-3 gap-8"
           >
-            {offices.map((office, index) => (
+            {offices.map((office) => (
               <div key={office.name} className="text-center md:text-left">
-                {/* Logo placeholder */}
-                <div className="w-16 h-16 bg-accent/20 flex items-center justify-center mb-6 mx-auto md:mx-0">
-                  <span className="font-display text-2xl text-accent">W</span>
+                {/* Map Embed */}
+                <div className="w-full h-40 mb-6 overflow-hidden rounded">
+                  <iframe
+                    src={office.mapEmbed}
+                    width="100%"
+                    height="100%"
+                    style={{ border: 0 }}
+                    allowFullScreen
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    title={`${office.name} Map`}
+                  />
                 </div>
                 
                 <h3 className="font-condensed text-lg font-semibold text-primary-foreground uppercase tracking-wide mb-4">

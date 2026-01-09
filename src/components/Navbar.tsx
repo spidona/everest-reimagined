@@ -56,13 +56,13 @@ export const Navbar = () => {
           {/* Logo */}
           <a href="#home" className="flex items-center gap-3">
             <div className="relative flex items-center gap-2">
-              {/* Walsh-style logo with green accent */}
               <div className="flex items-center">
-                <span className="font-display text-3xl md:text-4xl text-primary tracking-wider">WALSH</span>
-                <div className="ml-2 flex gap-0.5">
-                  <div className="w-3 h-8 bg-accent transform -skew-x-12" />
-                  <div className="w-3 h-8 bg-accent transform -skew-x-12" />
+                <span className="font-display text-xl md:text-2xl lg:text-3xl text-primary tracking-wider">ATSEHE</span>
+                <div className="mx-1.5 flex gap-0.5">
+                  <div className="w-2 h-6 md:h-8 bg-accent transform -skew-x-12" />
+                  <div className="w-2 h-6 md:h-8 bg-accent transform -skew-x-12" />
                 </div>
+                <span className="font-display text-xl md:text-2xl lg:text-3xl text-primary tracking-wider">SYNERGY</span>
               </div>
             </div>
           </a>

@@ -57,15 +57,15 @@ export const Footer = () => {
         {/* Legal */}
         <div className="text-center text-primary-foreground/50 text-sm space-y-4">
           <p>
-            ©{new Date().getFullYear()} The Walsh Group. Equal Opportunity Employer (EEO) including 
-            Disability/Protected Veterans. All Rights Reserved.
+            ©{new Date().getFullYear()} ATSEHE Ultimate Synergy. Equal Opportunity Employer. 
+            All Rights Reserved.
           </p>
           <div className="flex flex-wrap justify-center gap-x-4 gap-y-2">
-            <a href="#" className="hover:text-accent transition-colors">View our EEO Policy</a>
-            <span>|</span>
-            <a href="#" className="hover:text-accent transition-colors">Federal, State, and Federal Contractor Posters</a>
+            <a href="#" className="hover:text-accent transition-colors">Terms of Service</a>
             <span>|</span>
             <a href="#" className="hover:text-accent transition-colors">Privacy Policy</a>
+            <span>|</span>
+            <a href="#" className="hover:text-accent transition-colors">Contact Us</a>
           </div>
         </div>
       </div>
