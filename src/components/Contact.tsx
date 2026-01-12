@@ -8,25 +8,18 @@ import { toast } from "sonner";
 
 const offices = [
   {
-    name: "ATSEHE HEAD OFFICE",
-    address: ["Plot 123 Ahmadu Bello Way", "Victoria Island, Lagos"],
+    name: "BENUE OFFICE",
+    address: ["868 Uni. Agric RD.", "Opposite Federal Housing Estate, North Bank"],
     phone: "0906 887 9544",
     email: "asteheultimatesynergy@aol.com",
-    mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.7305!2d3.4226!3d6.4281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zVmljdG9yaWEgSXNsYW5k!5e0!3m2!1sen!2sng!4v1234567890",
+    mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.7305!2d8.5417!3d7.7336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zTWFrdXJkaQ!5e0!3m2!1sen!2sng!4v1234567890",
   },
   {
     name: "ABUJA OFFICE",
-    address: ["15 Maitama District", "FCT, Abuja"],
+    address: ["456 Central Business District", "Abuja FCT 900001"],
     phone: "0906 887 9544",
     email: "asteheultimatesynergy@aol.com",
-    mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.0!2d7.4951!3d9.0765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zTWFpdGFtYQ!5e0!3m2!1sen!2sng!4v1234567890",
-  },
-  {
-    name: "PORT HARCOURT OFFICE",
-    address: ["42 Trans Amadi Road", "Port Harcourt, Rivers State"],
-    phone: "0906 887 9544",
-    email: "asteheultimatesynergy@aol.com",
-    mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.5!2d7.0134!3d4.8156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zUG9ydCBIYXJjb3VydA!5e0!3m2!1sen!2sng!4v1234567890",
+    mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.0!2d7.4951!3d9.0765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zQWJ1amE!5e0!3m2!1sen!2sng!4v1234567890",
   },
 ];
 
