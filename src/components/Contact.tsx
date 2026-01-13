@@ -78,12 +78,12 @@ export const Contact = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="grid md:grid-cols-3 gap-8"
+            className="grid md:grid-cols-2 gap-16 lg:gap-24 max-w-4xl mx-auto"
           >
             {offices.map((office) => (
               <div key={office.name} className="text-center md:text-left">
                 {/* Map Embed */}
-                <div className="w-full h-40 mb-6 overflow-hidden rounded">
+                <div className="w-full h-64 mb-6 overflow-hidden rounded">
                   <iframe
                     src={office.mapEmbed}
                     width="100%"
@@ -107,8 +107,8 @@ export const Contact = () => {
                 </div>
                 
                 <div className="space-y-1 text-primary-foreground/70">
-                  {office.phone && <p>T: {office.phone}</p>}
-                  {office.email && <p>E: {office.email}</p>}
+                  {office.phone && <p>Phone: {office.phone}</p>}
+                  {office.email && <p>Email: {office.email}</p>}
                 </div>
               </div>
             ))}
