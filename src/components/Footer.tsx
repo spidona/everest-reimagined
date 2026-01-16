@@ -57,7 +57,7 @@ export const Footer = () => {
         {/* Legal */}
         <div className="text-center text-primary-foreground/50 text-sm space-y-4">
           <p>
-            ©{new Date().getFullYear()} ATSEHE Ultimate Synergy. Equal Opportunity Employer. 
+            ©{new Date().getFullYear()} ASTEHE ULTIMATE SYNERGY. Equal Opportunity Employer. 
             All Rights Reserved.
           </p>
           <div className="flex flex-wrap justify-center gap-x-4 gap-y-2">

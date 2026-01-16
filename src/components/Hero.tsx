@@ -8,7 +8,7 @@ import airportTerminal from "@/assets/airport-terminal.jpg";
 const slides = [
   {
     id: 1,
-    tag: "ATSEHE ULTIMATE SYNERGY",
+    tag: "ASTEHE ULTIMATE SYNERGY",
     title: "Delivering Innovation",
     subtitle: "Building Nigeria's Future Infrastructure",
     image: heroConstruction,
@@ -16,7 +16,7 @@ const slides = [
   },
   {
     id: 2,
-    tag: "ATSEHE ULTIMATE SYNERGY",
+    tag: "ASTEHE ULTIMATE SYNERGY",
     title: "Creating Connections",
     subtitle: "Nigeria's Premier Construction Partner",
     image: bridgeProject,
@@ -24,7 +24,7 @@ const slides = [
   },
   {
     id: 3,
-    tag: "ATSEHE ULTIMATE SYNERGY",
+    tag: "ASTEHE ULTIMATE SYNERGY",
     title: "Strengthening Resources",
     subtitle: "Leading Infrastructure Development",
     image: waterTreatment,
@@ -32,7 +32,7 @@ const slides = [
   },
   {
     id: 4,
-    tag: "ATSEHE ULTIMATE SYNERGY",
+    tag: "ASTEHE ULTIMATE SYNERGY",
     title: "Growing Careers",
     subtitle: "Professional and Trade Opportunities",
     image: airportTerminal,

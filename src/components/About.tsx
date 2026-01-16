@@ -46,7 +46,7 @@ export const About = () => {
           className="max-w-5xl mx-auto text-center mb-20"
         >
           <h2 className="font-display text-5xl md:text-6xl lg:text-7xl text-foreground mb-8">
-            We are ATSEHE Ultimate Synergy.
+            We are ASTEHE ULTIMATE SYNERGY.
           </h2>
           <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-4xl mx-auto">
             We're one of the largest and most established builders in Nigeria, with values and an approach 
