@@ -1,7 +1,5 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
-import { Button } from "./ui/button";
 import heroConstruction from "@/assets/hero-construction.jpg";
 import bridgeProject from "@/assets/bridge-project.jpg";
 import waterTreatment from "@/assets/water-treatment.jpg";
@@ -49,11 +47,7 @@ export const Hero = () => {
     const interval = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % slides.length);
     }, 6000);
-    return () => clearInterval(interval);
   }, []);
-
-  const nextSlide = () => setCurrentSlide((prev) => (prev + 1) % slides.length);
-  const prevSlide = () => setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
 
   return (
     <>
@@ -96,38 +90,11 @@ export const Hero = () => {
                   {slides[currentSlide].title}
                 </h1>
 
-                <p className="font-condensed text-xl md:text-2xl lg:text-3xl text-primary-foreground/80 mb-8">
+                <p className="font-condensed text-xl md:text-2xl lg:text-3xl text-primary-foreground/80">
                   {slides[currentSlide].subtitle}
                 </p>
-
-                <Button variant="heroOutline" size="lg" className="group">
-                  Learn More
-                  <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
-                </Button>
               </motion.div>
             </AnimatePresence>
-          </div>
-        </div>
-
-        {/* Navigation Arrows */}
-        <div className="absolute bottom-8 left-0 right-0 z-20">
-          <div className="container mx-auto px-6">
-            <div className="flex items-center gap-4">
-              <button
-                onClick={prevSlide}
-                className="text-primary-foreground/60 hover:text-primary-foreground transition-colors"
-              >
-                <ChevronLeft className="w-8 h-8" />
-              </button>
-              <span className="text-primary-foreground font-condensed">prev</span>
-              <span className="text-primary-foreground font-condensed ml-8">next</span>
-              <button
-                onClick={nextSlide}
-                className="text-primary-foreground/60 hover:text-primary-foreground transition-colors"
-              >
-                <ChevronRight className="w-8 h-8" />
-              </button>
-            </div>
           </div>
         </div>
       </section>
